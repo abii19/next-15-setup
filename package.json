@@ -1,0 +1,43 @@
+{
+  "name": "next-15-setup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "check-format:fix": "prettier --write --ignore-unknown \"**/*.{ts,tsx,js,jsx,mjs,json,css,scss,md}\"",
+    "check-format": "prettier --check --ignore-unknown \"**/*.{ts,tsx,js,jsx,mjs,json,css,scss,md}\"",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "next": "15.1.6",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@next/eslint-plugin-next": "^15.1.6",
+    "@svgr/webpack": "^8.1.0",
+    "@tailwindcss/postcss": "^4.0.6",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/node": "^20",
+    "@types/react": "19",
+    "@types/react-dom": "19",
+    "eslint": "^9.20.0",
+    "eslint-config-next": "15.1.6",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "postcss": "^8.5.2",
+    "prettier": "^3.5.0",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.6",
+    "typescript": "^5",
+    "typescript-eslint": "^8.24.0"
+  }
+}
