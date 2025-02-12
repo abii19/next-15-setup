@@ -5,8 +5,8 @@ import Users from "@/app/users";
 
 export default function Home() {
   return (
-    <div className="container grid min-h-screen items-center justify-center gap-16 py-10">
-      <main className="flex flex-col items-center gap-8">
+    <div className="container grid min-h-screen items-center justify-center gap-10 py-10">
+      <main className="flex flex-col items-center gap-6">
         <Image className="" src="/next.svg" alt="Next.js logo" width={180} height={38} priority />
         <ol className="list-inside list-decimal text-sm">
           <li className="mb-2">

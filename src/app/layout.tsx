@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import { TanstackProvider } from "@/providers/tanstack-provider";
+import { TanstackProvider } from "@/components/providers/tanstack-provider";
 
 import "./globals.css";
 
