@@ -29,7 +29,7 @@ const eslintConfig = [
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   ...compat.config({
-    extends: ["next", "prettier"],
+    extends: ["next", "prettier", "plugin:@tanstack/eslint-plugin-query/recommended"],
   }),
   prettierConfig,
   {

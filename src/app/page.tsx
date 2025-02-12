@@ -1,5 +1,8 @@
 import Image from "next/image";
 
+import Counter from "@/app/counter";
+import Users from "@/app/users";
+
 export default function Home() {
   return (
     <div className="container grid min-h-screen items-center justify-center gap-16 py-10">
@@ -16,6 +19,8 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
       </main>
+      <Counter />
+      <Users />
     </div>
   );
 }
