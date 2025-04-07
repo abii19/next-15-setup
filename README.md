@@ -1,6 +1,6 @@
 # Next 15 Setup
 
-This repo is the frontend application for Tribal's Marketplace.
+This repo is the frontend application for Next 15 Setup.
 
 ## Prerequisites
 
